@@ -1,8 +1,4 @@
-require 'capistrano/mono-deploy'
-
-ssh_options[:keys] = %w('~/.ssh/*.pub')
-
-role :app, "192.168.1.105"
-set :user, "antony"
-set :deploy_to, "~/www"
-
+load 'deploy'
+# Uncomment if you are using Rails' asset pipeline
+    # load 'deploy/assets'
+load 'config/deploy' # remove this line to skip loading any of the default tasks
