@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    capistrano-mono-deploy (0.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  capistrano-mono-deploy
